@@ -503,6 +503,38 @@ style
   }
 }
 
+#lastNav {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Raleway';
+  margin-bottom: 0px;  
+}
+
+#lastNav .navbar-brand {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#lastNav .navbar-nav .nav-item .nav-link {
+  color: #F79E02;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+#lastNav .navbar-nav .nav-item.active .nav-link {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  #lastNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.5rem;
+  }
+  #lastNav .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+  }
+  #lastNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: white;
+  }
+}
+
 .HT-ej{
   color: #1B9CE5;
   font-weight: bolder;
